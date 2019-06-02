@@ -1,0 +1,10 @@
+git push -u origin master //seta o repositorio para branch master
+//add repo
+git remote add origin https://github.com/werisonfernandes/PrimeiroRepo.git
+git config --global core.editor gedit
+git diff HEAD~1
+git remote -v //ver 
+git checkout <comit> <file>
+git checkout <filepath> //desfaz alterações
+git checkout . //defaz em todos os arquivos
+git checkout HEAD <FILEPATH> //defaz alterações no stage e comit
